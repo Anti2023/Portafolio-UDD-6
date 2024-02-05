@@ -47,7 +47,7 @@ const Navibar = () => {
             <NavbarContent className="hidden sm:flex gap-4" justify="start">
                 <NavbarBrand>
                     <Link href="/">
-                        <p className="font-bold text-secondary">Portafolio</p>
+                        <p className="font-bold text-secondary">MARB</p>
                     </Link>
                 </NavbarBrand>
             </NavbarContent>
