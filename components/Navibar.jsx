@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, NavbarMenuToggle, NavbarMenu } from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 
 
 const Navibar = () => {
@@ -47,7 +48,7 @@ const Navibar = () => {
             <NavbarContent className="hidden sm:flex gap-4" justify="start">
                 <NavbarBrand>
                     <Link href="/">
-                        <p className="font-bold text-secondary">MARB</p>
+                        <p className="font-bold text-2xl text-secondary">MARB</p>
                     </Link>
                 </NavbarBrand>
             </NavbarContent>
@@ -61,6 +62,20 @@ const Navibar = () => {
                     </NavbarItem>
 
                 ))}
+            </NavbarContent>
+
+            <NavbarContent>
+                <NavbarItem>
+                <Avatar
+              isBordered
+              as="button"
+              className="transition-transform"
+              color="success"
+              name="Jason Hughes"
+              size="sm"
+              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+            />
+                </NavbarItem>
             </NavbarContent>
         </Navbar>
     );

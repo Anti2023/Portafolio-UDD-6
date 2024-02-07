@@ -20,7 +20,7 @@ const projts = () => {
         />
         <CardProjects 
           title="Tablero de datos (Dashboard)"
-          description="Desarrollo de una aplicación realizando una conexión a un API (financiera, educativa, social) y presentar datos en una interfaz."
+          description="Se conecta a una API y presenta datos en una interfaz."
           bgCardImage="https://res.cloudinary.com/dgughebwk/image/upload/v1707091842/Captura_de_pantalla_2024-02-04_210429_nuzo3c.png"
           urlDespliegue="https://reliable-shortbread-96bfc2.netlify.app"
           urlRepositorio="https://github.com/Anti2023/Dashboard-API.git"
