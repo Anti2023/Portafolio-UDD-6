@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from '@nextui-org/react';
-import profile from "@/assets/img/IMG_9507.JPG";
+import profile from "@/assets/img/miavatar.png";
 
 const CardAbout = () => {
   return (
