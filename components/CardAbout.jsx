@@ -10,10 +10,13 @@ const CardAbout = () => {
         <h1 className='text-2xl font-bold mb-5 mt-5'>Acerca de mi</h1>
     </div>
     <div>
-        <p className='text-xl px-5 s:px-20'>
+        <p className='text-xl px-5 s:px-20 justify-center'>
             lorem ipsum jajaja
             kaajajajajajajjaja
-            kaajajajajajajajaj
+            kaajajajajajajajajdadadadadadadadada
+            dadadadadddaaddadadada
+            gagagaaggagaga
+            
         </p>
     </div>
     </div>

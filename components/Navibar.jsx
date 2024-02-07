@@ -1,6 +1,8 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, NavbarMenuToggle, NavbarMenu } from "@nextui-org/react";
+import profile from "@/assets/img/miavatar.png"
 import { Avatar } from "@nextui-org/react";
+
 
 
 const Navibar = () => {
@@ -73,7 +75,7 @@ const Navibar = () => {
               color="success"
               name="Jason Hughes"
               size="sm"
-              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+              src={profile.src}
             />
                 </NavbarItem>
             </NavbarContent>
