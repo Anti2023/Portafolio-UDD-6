@@ -72,7 +72,7 @@ const Navibar = () => {
               isBordered
               as="button"
               className="transition-transform"
-              color="success"
+              color="default"
               name="Jason Hughes"
               size="sm"
               src={profile.src}

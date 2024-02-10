@@ -5,6 +5,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from './utils/motionTrans';
 import { MdOutlineCloudDownload } from "react-icons/md";
+import Link from 'next/link';
 
 
 const Card = () => {
@@ -15,6 +16,7 @@ const Card = () => {
             animate="show"
             exit="hidden"
             className='flex flex-col px-50 s:px-5'>
+            
             <div className="mb-5">
                 <h2 className="text-4xl font-bold">Hola !!! Mi nombre es Anto y soy Desarrolladora Web</h2>
             </div>
@@ -23,11 +25,14 @@ const Card = () => {
                     Estoy aprendiendo a programar y este es mi proyecto de portafolio. Hasta ahora lo encuentro divertido y me gusta
                 </p>
             </div>
+            
             <div className="mt-5">
+                <Link href={"/docs/cvlinkedin.pdf"} target={"_blank"} download={true}>
                 <Button
                     endContent={<MdOutlineCloudDownload />}
                     color="secondary"
                     className="mt-5 py-6 px-5 text-lg">Curriculum</Button>
+                </Link>
             </div>
         </motion.div>
     );
