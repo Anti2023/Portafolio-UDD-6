@@ -31,7 +31,7 @@ const Card = () => {
                 <Button
                     endContent={<MdOutlineCloudDownload />}
                     color="secondary"
-                    className="mt-5 py-6 px-5 text-lg">Curriculum</Button>
+                    className="mt-5 py-6 px-5 text-lg text-gray-500">Curriculum</Button>
                 </Link>
             </div>
         </motion.div>

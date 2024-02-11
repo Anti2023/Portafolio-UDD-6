@@ -50,7 +50,7 @@ const Navibar = () => {
             <NavbarContent className="hidden sm:flex gap-4" justify="start">
                 <NavbarBrand>
                     <Link href="/">
-                        <p className="font-bold text-2xl text-secondary">MARB</p>
+                        <p className="font-bold text-2xl text-white" style={{ textShadow: '1px 1px gray, -1px -1px gray, 1px -1px gray, -1px 1px gray' }}>MARB</p>
                     </Link>
                 </NavbarBrand>
             </NavbarContent>
@@ -68,15 +68,15 @@ const Navibar = () => {
 
             <NavbarContent>
                 <NavbarItem>
-                <Avatar
-              isBordered
-              as="button"
-              className="transition-transform"
-              color="default"
-              name="Jason Hughes"
-              size="sm"
-              src={profile.src}
-            />
+                    <Avatar
+                        isBordered
+                        as="button"
+                        className="transition-transform"
+                        color="default"
+                        name="Jason Hughes"
+                        size="sm"
+                        src={profile.src}
+                    />
                 </NavbarItem>
             </NavbarContent>
         </Navbar>
